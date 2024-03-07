@@ -1,0 +1,51 @@
+<div class="bg-dark mx-auto text-white p-5 w-50 shadow-lg rounded-5">
+  <h2 class="text-warning text-center mb-5 p-1 border-warning border-bottom">
+    Register User
+  </h2>
+  <form id="RegisterForm">
+    <dl>
+      <dt>UserName</dt>
+      <dd>
+        <input class="form-control" type="text" id="RegisterName" required />
+      </dd>
+      <dt>User ID</dt>
+      <dd>
+        <input class="form-control" type="text" id="RegisterUserId" required />
+      </dd>
+      <p class="text-danger" id="checkId"></p>
+      <dt>Email</dt>
+      <dd>
+        <input class="form-control" type="email" id="RegisterEmail" required />
+      </dd>
+      <dt>Password</dt>
+      <dd>
+        <input
+          class="form-control"
+          type="password"
+          id="RegisterPassword"
+          required
+        />
+      </dd>
+      <dt>Mobile</dt>
+      <dd>
+        <input
+          type="text"
+          type="text"
+          class="form-control"
+          id="RegisterMobile"
+          required
+        />
+      </dd>
+      <button
+        disabled="false"
+        id="RegisterSubmit"
+        class="my-3 btn btn-warning w-100"
+      >
+        Register
+      </button>
+    </dl>
+  </form>
+  <button id="btnNavLogin" class="btn btn-link">
+    Already have an Account?
+  </button>
+</div>

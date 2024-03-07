@@ -1,0 +1,27 @@
+@import "bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+.container-fluid {
+  background-image: url("../../public/images/banner.jpg");
+  background-size: cover;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+.bg-shade {
+  background-color: rgba(0, 0, 0, 0.597);
+  height: 100%;
+}
+
+.card {
+  width: 250px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.674);
+  .card-body {
+    min-height: 100px;
+  }
+}
+
+header {
+  z-index: 11;
+}
